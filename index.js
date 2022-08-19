@@ -7,6 +7,7 @@ const { addUser, removeUser, getUser,
         getUsersInRoom } = require("./users");
 const {ObjectId,MongoClient} = require('mongodb')
 const Provider = require('@truffle/hdwallet-provider');
+const abi = require('./utils/Bet.json');
 const chessAbi = require('./newUtils/Bet.json');
 require("dotenv").config();
 
